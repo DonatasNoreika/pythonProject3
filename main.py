@@ -1,6 +1,7 @@
 from darbuotojas import engine, Darbuotojas
 from sqlalchemy.orm import sessionmaker
 from datetime import datetime
+import PIL
 
 Session = sessionmaker(bind=engine)
 session = Session()
