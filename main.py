@@ -6,7 +6,7 @@ Session = sessionmaker(bind=engine)
 session = Session()
 
 while True:
-    pasirinkimas = int(input("Pasirinkite: 1 - darbuotojo įvedimas, 2 - trynimas, 3 - atnaujinimas, 8 - peržiūra, 9 - išeiti"))
+    pasirinkimas = int(input("Pasirinkite: 1 - darbuotojo įvedimas, 2 - trynimas, 3 - redagavimas, 8 - peržiūra, 9 - išeiti"))
     if pasirinkimas == 1:
         while True:
             try:
